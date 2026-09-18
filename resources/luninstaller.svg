@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e05252;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b82525;stop-opacity:1" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Base Plate -->
+  <rect x="14" y="14" width="100" height="100" rx="24" fill="url(#grad1)" filter="url(#dropShadow)" />
+  
+  <!-- Trash Can Lid -->
+  <rect x="36" y="38" width="56" height="8" rx="4" fill="#ffffff" />
+  <rect x="52" y="32" width="24" height="6" rx="3" fill="#ffffff" />
+  
+  <!-- Trash Can Body -->
+  <path d="M42 50 L46 88 C46.5 94 51 98 57 98 L71 98 C77 98 81.5 94 82 88 L86 50 Z" fill="#ffffff" opacity="0.95" />
+  
+  <!-- Slots -->
+  <line x1="56" y1="58" x2="56" y2="88" stroke="#d32f2f" stroke-width="3" stroke-linecap="round" />
+  <line x1="64" y1="58" x2="64" y2="88" stroke="#d32f2f" stroke-width="3" stroke-linecap="round" />
+  <line x1="72" y1="58" x2="72" y2="88" stroke="#d32f2f" stroke-width="3" stroke-linecap="round" />
+</svg>

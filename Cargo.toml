@@ -1,0 +1,18 @@
+[package]
+name = "luninstaller"
+version = "0.1.0"
+edition = "2021"
+authors = ["Danil <agichev@gmail.com>"]
+description = "Simple and modern GNOME application uninstaller"
+license = "GPL-3.0"
+
+[dependencies]
+gtk = { version = "0.18", features = ["v3_24"] }
+gdk = "0.18"
+gdk-pixbuf = "0.18"
+gio = "0.18"
+glib = "0.18"
+pango = "0.18"
+walkdir = "2.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

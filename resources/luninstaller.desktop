@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Application Uninstaller
+Comment=Easily uninstall applications from GNOME menu
+Exec=luninstaller
+Icon=luninstaller
+Terminal=false
+Type=Application
+Categories=Utility;System;Settings;GTK;
+StartupNotify=true
+Keywords=uninstall;remover;cleaner;flatpak;snap;deb;apt;
