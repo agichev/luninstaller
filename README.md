@@ -5,15 +5,15 @@ A simple, lightweight, and modern graphical application built with **Rust + GTK3
 ![App Icon](resources/luninstaller.svg)
 
 ## Features
-- 🔍 **Instant Search**: real-time filtering by application name, description, and package type.
-- 📦 **Multi-format Support**:
+-  **Instant Search**: real-time filtering by application name, description, and package type.
+-  **Multi-format Support**:
   - **Flatpak** (`flatpak uninstall <id>`)
   - **Snap** (`pkexec snap remove <name>`)
   - **APT / Dpkg** system deb packages (`pkexec apt-get purge <pkg>`)
   - **Local & Custom Applications** (from `~/.local/share/applications` and standalone shortcuts)
-- 🎨 **Modern GNOME Look**: HeaderBar, native GTK theme compliance (automatic dark/light mode), system icons, and clean package type badges.
-- ⚡ **High Performance**: Instant startup without process spawning bottlenecks, asynchronous background uninstallation without freezing the UI or triggering "Application not responding" alerts.
-- 🛡️ **Safe**: Modal confirmation dialog before removal. Runs as a regular user and only invokes standard Polkit (`pkexec`) for administrative tasks.
+-  **Modern GNOME Look**: HeaderBar, native GTK theme compliance (automatic dark/light mode), system icons, and clean package type badges.
+-  **High Performance**: Instant startup without process spawning bottlenecks, asynchronous background uninstallation without freezing the UI or triggering "Application not responding" alerts.
+-  **Safe**: Modal confirmation dialog before removal. Runs as a regular user and only invokes standard Polkit (`pkexec`) for administrative tasks.
 
 ## Installation (.deb package)
 
